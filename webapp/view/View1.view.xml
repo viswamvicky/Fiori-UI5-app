@@ -1,0 +1,9 @@
+<mvc:View controllerName="com.app.demoproject.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+
+<!-- <Button id="idButton" text="clickme" press="onClick"></Button> -->
+<VBox id="idBoxFirstnumber"><Input id="idFirstNumber" type="Number" placeholder="Enter a number" width="25%"></Input></VBox>
+<Input id="idSecoundNumber" type="Number" placeholder="Enter a number" width="25%"></Input>
+<VBox id="idBox"><Button id="Button" text="Calculation" press="onClicking"></Button></VBox>
+</mvc:View>
